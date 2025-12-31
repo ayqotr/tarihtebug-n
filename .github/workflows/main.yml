@@ -1,5 +1,3 @@
-permissions:
-  contents: write
 name: Tarihte Bugün Otomatik Güncelleme
 
 on:
