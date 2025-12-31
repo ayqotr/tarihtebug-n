@@ -19,7 +19,7 @@ jobs:
         with:
           python-version: "3.11"
       - run: pip install -r requirements.txt
-      - run: python tarihtebugun_build_html.py
+      - run: python tarih.py
       - run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
